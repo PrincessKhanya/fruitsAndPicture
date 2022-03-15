@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h2>Search for fruit</h2>
-    <input type="text" name="name" id="inputSearch" placeholder="Ente name of fruit">
-    <button class="testBtn">Search</button>
-    <button class="sortBtn">Sort</button>
-    <div class="test"></div>
-    <p id="demo"></p>
-    
-
     <div class="container">
-        <div class="output">
-            <input type="text" name="name" id="inputBox" placeholder="Enter guess name of fruit"> 
-            <button class="btn">Search</button>
-            <div class="outputValue">
-
-            </div>
+        <div class="searchFruit">
+            <h2>Search for fruit</h2>
+            <input type="text" name="name" id="inputSearch" placeholder="Ente name of fruit">
+            <button class="testBtn">Search</button>
+            <button class="sortBtn">Sort</button>
+            <div class="test"></div>
+            <p id="demo"></p>
         </div>
         <div class="addingFruit">
-            <input type="text" name="name" id="inputBox1" placeholder="Enter guess name of fruit">
+            <h2>Add more fruits</h2>
+            <input type="text" name="name" class="addingFruitName" placeholder="Enter the name of fruit">
+            <input type="text" name="name" class="addingFruitIcon" placeholder="Enter the name of emoji">
+            <button class="addBtn">Add</button>
+            <p id="respones"></p>
         </div>
-
     </div>
     <script src="index.js"></script>
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-
